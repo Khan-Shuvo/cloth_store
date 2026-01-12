@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from './context/ThemeContext';
 import { CartProvider } from "./context/CartContext";
 import Navbar from './components/Navbar';
 import { Toaster } from 'sonner';
+import Footer from './components/Footer';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +27,7 @@ function App() {
                 <Route path="/about" element={<h1>about page</h1>} />
                 <Route path="/contact" element={<h1>contace page </h1>} />
               </Routes>
+            <Footer />
         </Router>
       </CartProvider>
     </ThemeProvider>
