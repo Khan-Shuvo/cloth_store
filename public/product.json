@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Classic White T-Shirt",
+    "category": "men",
+    "price": 29.99,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+    "colors": ["white", "black", "gray"],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "A timeless essential crafted from premium cotton. Perfect for everyday wear with a comfortable, relaxed fit.",
+    "trending": true
+  },
+  {
+    "id": 2,
+    "name": "Minimal Black Hoodie",
+    "category": "women",
+    "price": 79.99,
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+    "colors": ["black", "beige", "gray"],
+    "sizes": ["XS", "S", "M", "L"],
+    "description": "Cozy and stylish hoodie with a minimalist design. Made from soft fleece material for ultimate comfort.",
+    "trending": true
+  },
+  {
+    "id": 3,
+    "name": "Slim Fit Jeans",
+    "category": "men",
+    "price": 89.99,
+    "image": "https://images.unsplash.com/photo-1542272454315-7f6f8a6e9fcf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+    "colors": ["blue", "black"],
+    "sizes": ["28", "30", "32", "34", "36"],
+    "description": "Modern slim-fit denim with stretch for comfort. Classic design that never goes out of style.",
+    "trending": false
+  },
+  {
+    "id": 4,
+    "name": "Elegant Maxi Dress",
+    "category": "women",
+    "price": 129.99,
+    "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+    "colors": ["beige", "black", "white"],
+    "sizes": ["XS", "S", "M", "L"],
+    "description": "Flowing maxi dress perfect for any occasion. Features a flattering silhouette and breathable fabric.",
+    "trending": true
+  },
+  {
+    "id": 5,
+    "name": "Kids' Graphic Tee",
+    "category": "kids",
+    "price": 24.99,
+    "image": "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+    "colors": ["white", "blue", "pink"],
+    "sizes": ["4T", "5T", "6", "7", "8"],
+    "description": "Fun and comfortable graphic tee for kids. Made with soft, durable cotton for active play.",
+    "trending": false
+  },
+  {
+    "id": 6,
+    "name": "Leather Jacket",
+    "category": "men",
+    "price": 249.99,
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+    "colors": ["black", "brown"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Premium leather jacket with classic biker styling. Features quality hardware and comfortable lining.",
+    "trending": true
+  },
+  {
+    "id": 7,
+    "name": "Knit Sweater",
+    "category": "women",
+    "price": 69.99,
+    "image": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+    "colors": ["beige", "cream", "gray"],
+    "sizes": ["XS", "S", "M", "L"],
+    "description": "Soft knit sweater perfect for layering. Features a relaxed fit and ribbed detailing.",
+    "trending": false
+  },
+  {
+    "id": 8,
+    "name": "Kids' Denim Jacket",
+    "category": "kids",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+    "colors": ["blue", "black"],
+    "sizes": ["4T", "5T", "6", "7", "8"],
+    "description": "Classic denim jacket sized for kids. Durable construction with adjustable fit.",
+    "trending": false
+  },
+  {
+    "id": 9,
+    "name": "Tailored Blazer",
+    "category": "men",
+    "price": 189.99,
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+    "colors": ["navy", "black", "gray"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Sharp tailored blazer for a polished look. Made from premium wool blend fabric.",
+    "trending": true
+  },
+  {
+    "id": 10,
+    "name": "Silk Blouse",
+    "category": "women",
+    "price": 99.99,
+    "image": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+    "colors": ["white", "beige", "black"],
+    "sizes": ["XS", "S", "M", "L"],
+    "description": "Luxurious silk blouse with elegant draping. Perfect for both casual and formal occasions.",
+    "trending": true
+  },
+  {
+    "id": 11,
+    "name": "Cargo Pants",
+    "category": "men",
+    "price": 69.99,
+    "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+    "colors": ["khaki", "black", "olive"],
+    "sizes": ["28", "30", "32", "34", "36"],
+    "description": "Utility-inspired cargo pants with multiple pockets. Combines style with functionality.",
+    "trending": false
+  },
+  {
+    "id": 12,
+    "name": "Summer Romper",
+    "category": "kids",
+    "price": 34.99,
+    "image": "https://images.unsplash.com/photo-1622290291468-8328fb0df7ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+    "colors": ["pink", "blue", "yellow"],
+    "sizes": ["4T", "5T", "6", "7"],
+    "description": "Adorable summer romper for kids. Lightweight and easy to wear for warm weather fun.",
+    "trending": false
+  }
+]
