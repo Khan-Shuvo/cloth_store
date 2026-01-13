@@ -5,6 +5,7 @@ import { CartProvider } from "./context/CartContext";
 import Navbar from './components/Navbar';
 import { Toaster } from 'sonner';
 import Footer from './components/Footer';
+import HomePage from './pages/HomePage';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,7 +22,7 @@ function App() {
           />
             <Navbar />
               <Routes>
-                <Route path="/" element={<h1>home page</h1>} />
+                <Route path="/" element={<HomePage />} />
                 <Route path="/shop" element={<h1>shop page</h1>} />
                 <Route path="/cart" element={<h1>cart page</h1>} />
                 <Route path="/about" element={<h1>about page</h1>} />
