@@ -9,6 +9,7 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ShopPage from './pages/ShopPage';
 import ProductDetailPage from './pages/ProductDetailPage';
+import ContactPage from './pages/ContactPage';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,7 +30,7 @@ function App() {
                 <Route path="/shop" element={<ShopPage/>} />
                 <Route path="/cart" element={<h1>cart page</h1>} />
                 <Route path="/about" element={<AboutPage/>} />
-                <Route path="/contact" element={<h1>contace page </h1>} />
+                <Route path="/contact" element={<ContactPage/>} />
                 <Route path="/product/:id" element={<ProductDetailPage/>}/>
               </Routes>
             <Footer />
