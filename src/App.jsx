@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import { Toaster } from 'sonner';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,7 +26,7 @@ function App() {
                 <Route path="/" element={<HomePage />} />
                 <Route path="/shop" element={<h1>shop page</h1>} />
                 <Route path="/cart" element={<h1>cart page</h1>} />
-                <Route path="/about" element={<h1>about page</h1>} />
+                <Route path="/about" element={<AboutPage/>} />
                 <Route path="/contact" element={<h1>contace page </h1>} />
               </Routes>
             <Footer />
