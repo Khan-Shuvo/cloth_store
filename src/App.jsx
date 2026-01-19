@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ShopPage from './pages/ShopPage';
+import ProductDetailPage from './pages/ProductDetailPage';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,6 +30,7 @@ function App() {
                 <Route path="/cart" element={<h1>cart page</h1>} />
                 <Route path="/about" element={<AboutPage/>} />
                 <Route path="/contact" element={<h1>contace page </h1>} />
+                <Route path="/product/:id" element={<ProductDetailPage/>}/>
               </Routes>
             <Footer />
         </Router>
