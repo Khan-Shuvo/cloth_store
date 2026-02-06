@@ -55,7 +55,7 @@ export default function Navbar() {
           </div>
 
           {/* Right Icons */}
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4 dark:text-white">
             {/* Theme */}
             <button onClick={toggleTheme}>
               {isDarkMode ? <Sun /> : <Moon />}
